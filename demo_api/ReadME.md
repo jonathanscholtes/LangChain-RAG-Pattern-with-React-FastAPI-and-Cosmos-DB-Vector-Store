@@ -45,7 +45,7 @@ python main.py
 This project is licensed under the [MIT License](../MIT.md), granting permission for commercial and non-commercial use with proper attribution.
 
 ## Support
-For any questions or issues, please [open an issue](https://github.com/Jscholtes128/Demo_LangChain_Vector_Search/issues) on GitHub or reach out to the project maintainers.
+For any questions or issues, please [open an issue](https://github.com/Jscholtes128/LangChain-RAG-Pattern-with-React-FastAPI-and-Cosmos-DB-Vector-Store/issues) on GitHub or reach out to the project maintainers.
 
 ## Disclaimer
 This project is provided for educational and demonstration purposes only. Use at your own risk.

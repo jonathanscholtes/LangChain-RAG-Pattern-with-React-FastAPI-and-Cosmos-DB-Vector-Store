@@ -1,0 +1,9 @@
+.Search-Results {
+    justify-self: center;
+    align-self: stretch;
+    vertical-align: top;
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 250px;
+    
+}

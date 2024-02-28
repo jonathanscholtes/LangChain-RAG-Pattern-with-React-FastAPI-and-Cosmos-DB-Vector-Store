@@ -2,7 +2,7 @@
 # Project Description: Loading Documents into Cosmos DB for MongoDB VCore Vector Store
 
 ## Overview
-This project aims to demonstrate the process of loading documents into a Cosmos DB for MongoDB VCore Vector Store using LangChain Loaders, while also loading images into an Azure Storage Account. 
+This project aims to demonstrate the process of loading documents into a Cosmos DB for MongoDB VCore Vector Store using LangChain Loaders, while also loading images into an Azure Storage Account. Please view the tutorial walk-through: [LangChain RAG with React, FastAPI, Cosmos DB Vector: Part 1](https://stochasticcoder.com/2024/02/27/langchain-rag-with-react-fastapi-cosmos-db-vector-part-1/).
 
 ![loader diagrma](../images/demo_loader.png)
 

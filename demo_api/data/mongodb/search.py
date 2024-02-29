@@ -24,9 +24,11 @@ def similarity_search(query:str)-> tuple[list[Resource], list[Document]]:
     #The values of similarity metrics typically range between 0 and 1, with higher values indicating greater similarity between the vectors.
     docs_filters = [doc for doc, score  in docs if score >=.75]
 
+    # List the scores for documents
     for doc, score  in docs:
         print(score)
 
+    # Print number of documents passing score threshold
     print(len(docs_filters))
   
     return [results_to_model(document) for document in docs_filters],docs_filters

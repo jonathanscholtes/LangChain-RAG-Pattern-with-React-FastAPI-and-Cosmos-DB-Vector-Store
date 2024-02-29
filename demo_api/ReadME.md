@@ -23,6 +23,7 @@ This Python FastAPI project integrates LangChain for implementing the RAG (Retri
 - OPENAI_API_KEY=''
 - MONGO_CONNECTION_STRING=''
 - AZURE_STORAGE_CONNECTION_STRING=''
+- AZURE_STORAGE_CONTAINER="images"
 4. Create pythonn env: 
 ```
 python -m venv venv

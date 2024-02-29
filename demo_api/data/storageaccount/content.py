@@ -1,12 +1,12 @@
-from .init import blob_service_client
+from .init import blob_service_client, storage_account_container
 import io
 import base64
 
 
 
-def get_image_bytes(container_name,blob_name) -> str:
+def get_image_bytes(blob_name) -> str:
     
-    blob_client = blob_service_client.get_blob_client(container=container_name, blob=blob_name)
+    blob_client = blob_service_client.get_blob_client(container=storage_account_container, blob=blob_name)
     stream = io.BytesIO()
     blob_client.download_blob().readinto(stream)
 

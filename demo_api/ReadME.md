@@ -30,7 +30,7 @@ python -m venv venv
 5. Install Requirements:
 ```
 venv\Scripts\activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 6. Run the FastAPI server:
 ```

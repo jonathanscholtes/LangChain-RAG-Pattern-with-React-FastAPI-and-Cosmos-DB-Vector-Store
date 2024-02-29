@@ -5,11 +5,13 @@ import json
 import base64
 
 
-file_names = ['Rocket_Propulsion_Elements_with_images.json','Introduction_To_Rocket_Science_And_Engineering_with_images.json']
+file_names = ['documents/Rocket_Propulsion_Elements_with_images.json','documents/Introduction_To_Rocket_Science_And_Engineering_with_images.json']
+
+file_names += file_names
 
 for file_name in file_names:
 
-    CosmosDBLoader(f"documents/{file_name}").load()
+    CosmosDBLoader(f"{file_name}").load()
 
     image_loader = BlobLoader()
 

@@ -1,5 +1,4 @@
-import React from 'react'
-import { Component, useState } from 'react'
+import {React, Component } from 'react'
 import Search from './Search/Search'
 import './Main.css'
 
@@ -13,7 +12,7 @@ class App extends Component {
     return (
       <div className="Main">
         <div className="Main-Header">
-          <img src="/logoresearch.png" height={'95%'} />
+          <img src="/logoresearch.png" alt="LangChain RAG with React Demo Logo" height={'95%'} />
         </div>
         <div className="Main-Body">
           <div className="Main-Content">

@@ -1,21 +1,28 @@
 import React, { useState } from 'react'
-import Table from '@mui/material/Table'
-import TableBody from '@mui/material/TableBody'
-import TableCell from '@mui/material/TableCell'
-import TableContainer from '@mui/material/TableContainer'
-import TableHead from '@mui/material/TableHead'
-import TableRow from '@mui/material/TableRow'
-import Paper from '@mui/material/Paper'
+
+import { IconButton, Box, Paper, Typography } from '@mui/material'
+
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+} from '@mui/material'
+
+import {
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+} from '@mui/material'
+
 import NotesTwoToneIcon from '@mui/icons-material/NotesTwoTone'
 import CancelIcon from '@mui/icons-material/Cancel'
-import { IconButton, Box } from '@mui/material'
-import Dialog from '@mui/material/Dialog'
-import DialogActions from '@mui/material/DialogActions'
-import DialogContent from '@mui/material/DialogContent'
-import DialogContentText from '@mui/material/DialogContentText'
-import DialogTitle from '@mui/material/DialogTitle'
+
 import ImageTwoToneIcon from '@mui/icons-material/ImageTwoTone'
-import Typography from '@mui/material/Typography'
 
 import './SearchResults.css'
 
@@ -36,7 +43,7 @@ export default function SearchResults(searchResults) {
 
   return (
     <Box>
-      <Dialog open={imageIdenfidier != ''} sx={{ m: '0px', p: '0px' }}>
+      <Dialog open={imageIdenfidier !== ''} sx={{ m: '0px', p: '0px' }}>
         <DialogActions sx={{ m: '0px', p: '0px' }}>
           <IconButton>
             <CancelIcon
@@ -49,11 +56,11 @@ export default function SearchResults(searchResults) {
         <DialogContent sx={{ m: '0px', p: '0px' }}>
           <DialogContentText sx={{ m: '0px', p: '0px' }}>
             {retrieve_image_data(imageIdenfidier)}
-            <img src={imageData} width={'600px'} />
+            <img src={imageData} alt="" width={'600px'} />
           </DialogContentText>
         </DialogContent>
       </Dialog>
-      <Dialog open={content != ''} sx={{ m: '0px', p: '0px' }} scroll="paper">
+      <Dialog open={content !== ''} sx={{ m: '0px', p: '0px' }} scroll="paper">
         <DialogTitle>Resource Content</DialogTitle>
         <IconButton
           sx={{

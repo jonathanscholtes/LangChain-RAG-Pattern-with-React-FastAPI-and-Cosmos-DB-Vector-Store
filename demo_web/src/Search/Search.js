@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import { Button, Box, Divider } from '@mui/material'
+import { Button, Box, Stack, TextField } from '@mui/material'
 import CircularProgress from '@mui/material/CircularProgress'
-import Stack from '@mui/material/Stack'
-import TextField from '@mui/material/TextField'
+
 import SendIcon from '@mui/icons-material/Send'
 import SearchResults from './SearchResults'
 import SearchAnswer from './SearchAnswer'
@@ -24,7 +23,7 @@ export default function Search() {
   }
 
   return (
-    <Stack direction="column" spacing={2} >
+    <Stack direction="column" spacing={2}>
       <Stack direction="row" spacing={0}>
         <TextField
           sx={{ width: '80%' }}
@@ -44,7 +43,7 @@ export default function Search() {
           Submit
         </Button>
       </Stack>
-      {isLoading == true && (
+      {isLoading === true && (
         <Box
           sx={{
             width: '100%',
@@ -57,13 +56,13 @@ export default function Search() {
         </Box>
       )}
 
-      {results != '' && (
+      {results !== '' && (
         <Stack direction="column" spacing={2}>
           <SearchAnswer resultText={results['text']} />
         </Stack>
       )}
 
-      {results != '' && (
+      {results !== '' && (
         <SearchResults searchResults={results['ResourceCollection']} />
       )}
     </Stack>

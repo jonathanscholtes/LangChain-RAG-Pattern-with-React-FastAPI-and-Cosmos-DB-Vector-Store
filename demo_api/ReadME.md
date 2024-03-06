@@ -1,7 +1,7 @@
 # Python FastAPI Project with LangChain for RAG
 
 ## Overview
-This Python FastAPI project integrates LangChain for implementing the RAG (Retrieval Augmented Generation) pattern, leveraging a CosmosDB vector store for text retrieval and an Azure Storage Account for image retrieval.
+This Python FastAPI project integrates LangChain for implementing the RAG (Retrieval Augmented Generation) pattern, leveraging a CosmosDB vector store for text retrieval and an Azure Storage Account for image retrieval. Please view the tutorial walk-through: [LangChain RAG with React, FastAPI, Cosmos DB Vector Search: Part 2](https://stochasticcoder.com/2024/02/29/langchain-rag-with-react-fastapi-cosmos-db-vector-part-2/).
 
 ## Features
 - Utilizes FastAPI for building a high-performance web API.

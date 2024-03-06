@@ -1,16 +1,16 @@
-# React 18 Project with Node.js 16 for LangChain RAG Pattern with FastAPI
+# React for LangChain RAG Pattern with FastAPI
 
 ## Overview
-This React 18 project utilizes Node.js 16 to connect to a FastAPI backend for implementing the LangChain RAG (Retrieval Augmented Generation) pattern for Question and Answer (Q&A) tasks. 
+This React project utilizes Node.js  to connect to a FastAPI backend for implementing the LangChain RAG (Retrieval Augmented Generation) pattern for Question and Answer (Q&A) tasks. [LangChain RAG with React, FastAPI, Cosmos DB Vector Search: Part 3](https://stochasticcoder.com/2024/03/06/langchain-rag-with-react-fastapi-cosmos-db-vectors-part-3/).
 
 ## Features
-- Utilizes React 18 for building a modern and interactive user interface.
-- Integrates Node.js 16 for server-side logic and connecting to the FastAPI backend.
+- Utilizes React for building a modern and interactive user interface.
+- Integrates Node.js for server-side logic and connecting to the FastAPI backend.
 - Implements the LangChain RAG pattern for advanced Q&A tasks, enabling intelligent question answering.
 - Utilizes FastAPI for building a high-performance backend API.
 
 ## Requirements
-- Node.js 16 installed in your development environment.
+- Node.js 20.11.1 installed in your development environment.
 - Access to a FastAPI backend for LangChain RAG pattern implementation.
 - Basic knowledge of React, Node.js, FastAPI, and LangChain concepts.
 
